@@ -1,4 +1,4 @@
-package main
+package modules
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func main() {
+func Run() {
 
 	r := gin.Default()
 	r.GET("/ping", func(c *gin.Context) {
